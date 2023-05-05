@@ -5,6 +5,29 @@
     --white-color: #ffffff;
 }
 
+.fizz {
+    font-weight: bold;
+    color: rgb(30, 207, 30);
+    width: 20%;
+}
+
+.buzz {
+    font-weight: bold;
+    color:rgb(14, 98, 255);
+    width: 20%;
+}
+
+.fizzbuzz {
+    font-weight: bold;
+    color: rgb(255, 14, 14);
+    width: 20%;
+}
+
+.regular {
+    font-weight: normal;
+    width: 20%;
+}
+
 body {
     color:var(--dark-color);
 }
