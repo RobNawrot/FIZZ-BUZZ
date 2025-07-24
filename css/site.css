@@ -5,19 +5,19 @@
     --white-color: #ffffff;
 }
 
-.fizz {
+.Fizz {
     font-weight: bold;
     color: rgb(30, 207, 30);
     width: 20%;
 }
 
-.buzz {
+.Buzz {
     font-weight: bold;
     color:rgb(14, 98, 255);
     width: 20%;
 }
 
-.fizzbuzz {
+.FizzBuzz {
     font-weight: bold;
     color: rgb(255, 14, 14);
     width: 20%;
