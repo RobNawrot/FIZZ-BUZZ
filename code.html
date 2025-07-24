@@ -178,9 +178,32 @@
                     </pre>
                 </div>
                 <div class="col-lg-4">
-                    <p>The Code is structured in one function.</p>
-                    <h5>Hello World</h5>
-                    <p>Hello World is a function that displays an alert with a message of "Hello World"</p>
+                    <p>The code is structured in three functions.</p>
+                    <h5>getValues</h5>
+                    <p>getValues is a function that retrieves the "Fizz" and "Buzz" integer values from the input fields. These values will determine what integer multiples
+                        will be found within a sequence of the first 100 integers.
+                    </p>
+                    <p>This function takes no parameters and returns nothing.</p>
+                    <p>This function does not permit entering non-integer values and will display a prompt to let the user know upon attempting to do so.
+                    </p>
+                    <h5>fizzBuzz</h5>
+                    <p>fizzBuzz is a function that populates an array with the first 100 integers starting with 1 and ending at 100. Then, it uses the modulus operator to
+                        efficiently determine whether an integer is a multiple of either the "Fizz" value, "Buzz" value or "FizzBuzz" for both and stores the 
+                        respective string literal into the array at that index.
+                    </p>
+                    <p>This function takes two integer parameters and returns an array of integers.
+                    </p>
+                    <h5>displayData</h5>
+                    <p>displayData is a function that displays the sequence of 100 integers starting with 1 and ending at 100. It replaces multiples found
+                        within this range of integers with string literals. Further, the green string "Fizz" replaces all multiples of the Fizz number entered by the user.
+                        Similarly, the blue string "Buzz" replaces all multiples of the Buzz number entered by the user. Finally, the red string "FizzBuzz" replaces all multiples
+                        of both the Fizz and Buzz numbers entered by the user.
+                    </p>
+                    <p>This function takes a single integer array parameter and returns nothing.
+                    </p>
+                    <p>Displaying the data is achieved by inserting strings into an HTML table element and populating the table body with rows and data. Each row consists of
+                        5 integers or data columns. Further, each row of five is rendered top to bottom until all 100 integers or multiples are displayed.
+                    </p>
                 </div>
             </div>
         </div>
